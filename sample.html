@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clickable Card with Message</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .hidden {
+        display: none;
+    }
+    #messageCard {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        height: 250px;
+        width: 500px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <!-- Original card -->
+    <div class="card border border-dark rounded" id="oscard1">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Click Me</h5>
+            <p class="card-text">Click this card to show a message.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Hidden card/message -->
+<div class="card mt-3 hidden" id="messageCard">
+    <div class="card-body">
+        <h5 class="card-title">Message Title</h5>
+        <p class="card-text">This is a message that appears when you click the card.</p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#oscard1').click(function(event) {
+            event.stopPropagation(); // Prevent the event from bubbling up to the document body
+            $('#messageCard').toggleClass('hidden'); // Toggle the visibility of the message card
+        });
+
+        $(document).click(function(event) {
+            // If the click is outside of the message card, hide it
+            if (!$(event.target).closest('#messageCard').length && !$(event.target).is('#messageCard')) {
+                $('#messageCard').addClass('hidden');
+            }
+        });
+    });
+</script>
+</body>
+</html>

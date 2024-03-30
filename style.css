@@ -1,0 +1,140 @@
+.img {
+    width: 400px;
+    height: 400px;
+}
+
+#body {
+    padding: 0 50px 0 50px;
+}
+
+/*#img1 {
+    margin-bottom: 20px;
+}
+
+#img2 {
+    margin: 0 20px 20px 20px;
+}
+
+#img3 {
+    margin: 0 20px 20px 20px;
+}
+
+#img4 {
+    margin: 0 0 20px 20px;
+}*/
+#img1, #img5, #mv1 {
+    margin-right: 10px;
+}
+
+#img2, #img6, #mv2{
+    margin-right: 5px;
+}
+
+#img3, #img7, #mv3{
+    margin-left: 5px;
+}
+
+#img4, #img8, #mv4 {
+    margin-left: 10px;
+}
+
+#categories_text {
+    margin-top: 70px;
+}
+
+#mostvisited_text{
+    margin-top: 50px;
+}
+
+#footer {
+    background-color: rgb(90, 90, 90);
+    padding: 110px 50px 50px 110px;
+    margin-top: 30px;
+}
+
+#featured {
+    margin-top: 50px;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover, #mv1:hover, 
+#mv2:hover, #mv3:hover, #mv4:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+#home:hover, #aboutus:hover, #products:hover, #contactus:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+
+#logo {
+    margin-right: 80px;
+    margin-left: 3px;
+}
+
+li {
+    margin: 0 25px 0 25px;
+}
+
+.card-content {
+    display: none;
+    margin-left: 15px;
+}
+
+.card-group {
+    cursor: pointer;
+}
+
+#footer {
+    color: white;
+}
+
+.darkmode #footer {
+    color: black;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.darkmode {
+    background-color: #333;
+    color: white;
+}
+
+.darkmode #navbar {
+    background-color: #333;
+}
+
+.darkmode a {
+    color: white;
+}
+
+.darkmode .card-link {
+    color: black;
+}
+
+.darkmode #button {
+    color: white;
+    background-color: #333;
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#button {
+    border-radius: 7px;
+    border-color: white;
+    background-color: white;
+}
+
+.navbar {
+    background-color: rgba(165, 165, 165, 0.568);
+}
+
+.btn {
+    margin-bottom: 10px;
+}

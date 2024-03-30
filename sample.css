@@ -1,0 +1,17 @@
+.card {
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.card-header {
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.card-content {
+    display: none;
+    padding: 10px;
+}

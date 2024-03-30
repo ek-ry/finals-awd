@@ -1,0 +1,200 @@
+#body {
+    padding: 20px 50px 0 50px;
+}
+
+#fcard1, #fcard2, #fcard3, #fcard4, #fcard5 {
+    margin-right: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+#officecontent, #techcontent, #furniturescontent {
+    margin-top: 70px;    
+}
+
+#oscard1, #oscard2, #oscard3, #oscard4, #oscard5 {
+    margin-right: 10px;
+}
+
+#footer {
+    background-color: rgb(90, 90, 90);
+    padding: 110px 50px 50px 110px;
+    margin-top: 30px;
+}
+
+h4 {
+    cursor: pointer;
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.darkmode #button {
+    color: white;
+    background-color: #333;
+}
+
+#tcard1, #tcard2, #tcard3, #tcard4, #tcard5 {
+    margin-right: 10px;
+}
+
+#ccard1, #ccard2, #ccard3, #ccard4, #ccard5 {
+    margin-right: 10px;
+}
+
+#fucard1, #fucard2, #fucard3, #fucard4, #fucard5 {
+    margin-right: 10px;
+}
+
+#button {
+    border-radius: 7px;
+    border-color: white;
+    background-color: white;
+}
+
+.darkmode #footer {
+    color: black;
+}
+
+.card-link {
+    text-decoration: none;
+    color: black;
+}
+
+.darkmode {
+    background-color: #333;
+    color: white;
+}
+
+.darkmode #navbar {
+    background-color: #333;
+}
+
+.darkmode a {
+    color: white;
+}
+
+.darkmode .card-link {
+    color: black;
+}
+
+.darkmode #button {
+    color: white;
+    background-color: #333;
+}
+
+#home:hover, #aboutus:hover, #products:hover, #contactus:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+#logo {
+    margin-right: 80px;
+    margin-left: 3px;
+}
+
+li {
+    margin: 0 25px 0 25px;
+}
+
+/**/
+.hidden {
+    display: none;
+}
+
+#fitem1, #fitem2, #fitem3, #fitem4, #fitem5 {
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 50%;
+    z-index: 1;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    color: #333;
+    opacity: 1;
+    border: 2px solid #000000; 
+    border-radius: 4px;
+}
+
+#ositem1, #ositem2, #ositem3, #ositem4, #ositem5 {
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 50%;
+    z-index: 1;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    color: #333;
+    opacity: 1;
+    border: 2px solid #6495ED; 
+    border-radius: 4px;
+}
+
+#titem1, #titem2, #titem3, #titem4, #titem5 {
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 50%;
+    z-index: 1;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    color: #333;
+    opacity: 1;
+    border: 2px solid #4F7942; 
+    border-radius: 4px;
+}
+
+#fuitem1, #fuitem2, #fuitem3, #fuitem4, #fuitem5 {
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 50%;
+    z-index: 1;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    color: #333;
+    opacity: 1;
+    border: 2px solid #C19A6B; 
+    border-radius: 4px;
+}
+
+.card {
+    position: relative;
+}
+
+.darkmode #fitem1 {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.navbar {
+    background-color: rgba(165, 165, 165, 0.568);
+}
+
+.darkmode #navbar {
+    background-color: #333;
+}
+
+.darkmode #button {
+    color: white;
+    background-color: #333;
+}

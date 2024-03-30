@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="shortcut icon" href="images/logo-removebg.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo">
+                <img src="images/logo-removebg.png" alt="BuynSell" width="60" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" id="home">Home</a>
+                </li>   
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html" id="aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html" id="products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html" id="contactus">Contact Us</a>
+                </li>
+              </ul>
+              <button onclick="DarkMode()" id="button">Toggle</button>
+            </div>
+        </div>
+      </nav>
+
+      <div id="body">
+        
+        <div class="fashioncontent">
+          <h4 id="fashionpage">Fashion</h4>
+          <div class="card-group">
+            <div class="card border border-dark rounded" id="fcard1">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Casio Watch</h4>
+                <h4 class="card-title">P1,700</h4>
+              </div>
+            </div>
+
+            <div id="fitem1" class="hidden">
+              <h2>Casio Watch</h2>
+              <h2>P1,700</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling casio watch. pm fore more details</h4>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+            </div>
+  
+
+            <div class="card border border-dark rounded" id="fcard2">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Oversized DBTK TSHirt</h4>
+                <h4 class="card-title">P550</h4>
+              </div>
+            </div>
+
+            <div id="fitem2" class="hidden">
+              <h2>Oversized DBTK TSHirt</h2>
+              <h2>P550</h2>
+                <h4>Seller: Hev Abi</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: FOR SALE!! Mine niyo na!! Pm for details.</h4>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+            </div>
+  
+
+            <div class="card border border-dark rounded" id="fcard3">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Maong/Jeans</h4>
+                <h4 class="card-title">P1,800</h4>
+              </div>
+            </div>
+
+            <div id="fitem3" class="hidden">
+              <h2>Maong/Jeans</h2>
+              <h2>P1,800</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Maong for sale. Large size niya po. pm is the key mga maam/sir</h4>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="fcard4">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">France Football Tshirt</h4>
+                <h4 class="card-title">P2,300</h4>
+              </div>
+            </div>
+
+            <div id="fitem4" class="hidden">
+              <h2>France Football Tshirt</h2>
+              <h2>P2,300</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: .....</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="fcard5">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Cap</h4>
+                <h4 class="card-title">P350</h4>
+              </div>
+            </div>
+
+            <div id="fitem5" class="hidden">
+              <h2>Cap</h2>
+              <h2>P350</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling. pm fore more details</h4>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="officecontent">
+          <h4 id="officecontent">Office Supplies</h4>
+          <div class="card-group">
+            <div class="card border border-dark rounded" id="oscard1">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Stapler</h4>
+                <h4 class="card-title">P1,700</h4>
+              </div>
+            </div>
+
+            <div id="ositem1" class="hidden">
+              <h2>Stapler</h2>
+              <h2>P200</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling stapler. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="oscard2">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Bond Ppaer</h4>
+                <h4 class="card-title">P600</h4>
+              </div>
+            </div>
+
+            <div id="ositem2" class="hidden">
+              <h2>Bond Paper</h2>
+              <h2>P600</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling a4 short and long bond paper. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="oscard3">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Casio Calculator</h4>
+                <h4 class="card-title">P1,700</h4>
+              </div>
+            </div>
+
+            <div id="ositem3" class="hidden">
+              <h2>Casio Calculator</h2>
+              <h2>P1,700</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling casio calcu. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="oscard4">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Ballpen</h4>
+                <h4 class="card-title">P100</h4>
+              </div>
+            </div>
+
+            <div id="ositem4" class="hidden">
+              <h2>Ballpen</h2>
+              <h2>P100</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling 10 ballpen for P100. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="oscard5">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Long Folders</h4>
+                <h4 class="card-title">P20</h4>
+              </div>
+            </div>
+
+            <div id="ositem5" class="hidden">
+              <h2>Long Folders</h2>
+              <h2>P20</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling long folders. pm fore more details</h4>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="techcontent">
+          <h4 id="techcontent">Technology</h4>
+          <div class="card-group">
+            <div class="card border border-dark rounded" id="tcard1">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Acer Laptop</h4>
+                <h4 class="card-title">P20,700</h4>
+              </div>
+            </div>
+
+            <div id="titem1" class="hidden">
+              <h2>Acer Laptop</h2>
+              <h2>P1,700</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling Acer Laptop. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="tcard2">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Apple 15 Fully Paid</h4>
+                <h4 class="card-title">P45,000</h4>
+              </div>
+            </div>
+  
+            <div id="titem2" class="hidden">
+              <h2>Apple 15</h2>
+              <h2>P45,000</h2>
+                <h4>Seller: Jordan King Santos</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling Apple Iphone 15 256gb fully paid cash. pm fore more details</h4>
+            </div>
+            
+  
+            <div class="card border border-dark rounded" id="tcard3">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Pre Built PC</h4>
+                <h4 class="card-title">P25,700</h4>
+              </div>
+            </div>
+  
+            <div id="titem3" class="hidden">
+              <h2>Pre Built PC</h2>
+              <h2>P25,700</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling pre built pc. pm fore more details</h4>
+            </div>
+            
+  
+            <div class="card border border-dark rounded" id="tcard4">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Apple Drawing CHuchu</h4>
+                <h4 class="card-title">P6,000</h4>
+              </div>
+            </div>
+  
+            <div id="titem4" class="hidden">
+              <h2>Apple Drawing Chuchu</h2>
+              <h2>P6,000</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling ipad. pm fore more details</h4>
+            </div>
+            
+  
+            <div class="card border border-dark rounded" id="tcard5">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Smart Watch</h4>
+                <h4 class="card-title">P3,500</h4>
+              </div>
+            </div>
+            
+            <div id="titem5" class="hidden">
+              <h2>Smart Watch</h2>
+              <h2>P3,500</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling smart watch. pm fore more details</h4>
+            </div>
+            
+  
+          </div>
+        </div>
+
+
+        <div class="furniturescontent">
+          <h4 id="furniturescontent">Furnitures</h4>
+          <div class="card-group">
+            <div class="card border border-dark rounded" id="fucard1">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Ikea Table</h4>
+                <h4 class="card-title">P11,000</h4>
+              </div>
+            </div>
+
+            <div id="fuitem1" class="hidden">
+              <h2>Ikea Table</h2>
+              <h2>P11,000</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling ikea table. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="fucard2">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Coffee Table</h4>
+                <h4 class="card-title">P3,500</h4>
+              </div>
+            </div>
+
+            <div id="fuitem2" class="hidden">
+              <h2>Coffee Table/h2>
+              <h2>P3,500</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling coffee table. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="fucard3">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Bed</h4>
+                <h4 class="card-title">P7,000</h4>
+              </div>
+            </div>
+
+            <div id="fuitem3" class="hidden">
+              <h2>Bed</h2>
+              <h2>P7,000</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling bed. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="fucard4">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Cabinet</h4>
+                <h4 class="card-title">P6,000</h4>
+              </div>
+            </div>
+
+            <div id="fuitem4" class="hidden">
+              <h2>Cabinet</h2>
+              <h2>P6,000</h2>
+                <h4>Seller: John Dela Cruz</h4>
+                <h4>Location: Quezon City</h4>
+                <h4>Description: Selling casio watch. pm fore more details</h4>
+            </div>
+
+  
+            <div class="card border border-dark rounded" id="fucard5">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Dining Table</h4>
+                <h4 class="card-title">P10,000</h4>
+              </div>
+            </div>
+          </div>
+
+          <div id="fuitem5" class="hidden">
+            <h2>Dining Table</h2>
+            <h2>P10,000</h2>
+              <h4>Seller: John Dela Cruz</h4>
+              <h4>Location: Quezon City</h4>
+              <h4>Description: Selling dining table. pm fore more details</h4>
+          </div>
+
+
+        </div>
+      </div>
+      <div id="footer">
+        <h2>Buy n Sell ©</h2>
+      </div>
+
+      
+      <script src="products.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

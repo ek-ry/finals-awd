@@ -1,0 +1,48 @@
+.darkmode {
+    background-color: #333;
+    color: white;
+}
+
+#home:hover, #aboutus:hover, #products:hover, #contactus:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+#button {
+    border-radius: 7px;
+    border-color: white;
+    background-color: white;
+}
+
+.darkmode #navbar {
+    background-color: #333;
+}
+
+.darkmode a {
+    color: white;
+}
+
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+#logo {
+    margin-right: 80px;
+    margin-left: 3px;
+}
+
+li {
+    margin: 0 25px 0 25px;
+}
+
+.navbar {
+    background-color: rgba(165, 165, 165, 0.568);
+}
+
+.darkmode #navbar {
+    background-color: #333;
+}
+
+.darkmode #button {
+    color: white;
+    background-color: #333;
+}
